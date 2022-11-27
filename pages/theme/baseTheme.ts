@@ -54,6 +54,11 @@ const BaseTheme: ThemeOptions = {
           opacity: 0.25
         }
       }
+    },
+    MuiAppBar:{
+      defaultProps:{
+        elevation: 0
+      }
     }
   },
 }
